@@ -1,37 +1,47 @@
 
 body{
     background-color: lightsalmon;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
 }
 
 input {
   text-align:left;
-  width: 200px;
-  display: auto;
   float: right;
-  font-size: 15px;
-  height: 25px;
+  padding: 10px;
 }
 
 section {
     display: relative;
-    padding: 20px;
+    padding: 10px;
     width: auto;
     margin: auto;
 }
+.button-group{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 
-button {
-    position:relative;
-    transition: .5s ease;
-    top: 10px;
-    left: 100px;
-    font-size: 18px;
-    
+}
+button{
+    padding: 12px;
 }
 
 form {
-    width: 30%;
+    padding: 45px;
+    border: 1px solid black;
     margin: 0 auto;
     font-size: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #3498db;
+    max-width: 35%;
+   
+
 }
 
 
