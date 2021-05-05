@@ -6,18 +6,6 @@ body{
     text-align: center;
 }
 
-input {
-  text-align:left;
-  float: right;
-  padding: 10px;
-}
-
-section {
-    display: relative;
-    padding: 10px;
-    width: auto;
-    margin: auto;
-}
 .button-group{
     display: flex;
     flex-direction:row;
@@ -35,7 +23,6 @@ form {
     border: 1px solid black;
     margin: 0 auto;
     font-size: 20px;
-    text-align: left;
     display: flex;
     flex-direction: column;
     background-color: #3498db;
@@ -44,4 +31,42 @@ form {
 
 }
 
+@media (min-width: 1000px)  {
+    
 
+    input {
+        float: right;
+
+
+
+
+      }
+      
+    label{
+        float: left;
+    }
+
+}
+
+
+@media (max-width: 980px)  {
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    input {
+
+            flex-wrap:wrap;
+            display: flex;
+
+      }
+      
+    label{
+        display: flex;
+
+    }
+
+}
